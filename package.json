@@ -1,0 +1,30 @@
+{
+  "name": "react-training",
+  "version": "0.1.0",
+  "description": "react-training",
+  "repository": "https://github.com/ggolikov/react-training",
+  "main": "index.js",
+  "author": "Grigory Golikov gr.golikov@gmail.com",
+  "license": "MIT",
+  "scripts": {
+      "production": "webpack -p",
+      "dev": "webpack -w",
+      "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "html-webpack-plugin": "^2.28.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-hot-loader": "^1.3.0",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "dependencies": {}
+}
