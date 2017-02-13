@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-class Hello extends Component {
+class Main extends Component {
     constructor(props) {
         super(props);
     }
 
     render() {
         return (
-            <div>
-                Hello! This is my first component!
+            <div className='main-container'>
+                {this.props.children}
             </div>
         )
     }
 }
 
-export default Hello;
+export default Main;
